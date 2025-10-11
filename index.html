@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="/img/cv.png" type="image/x-icon">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('/img/pexels-stywo-1054218.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;     
+      background-attachment: fixed; 
+      background-position: center;
+    }
+    #navbar{
+        display: flex;
+        justify-content:space-evenly;
+        background-color: rgba(21, 21, 29, 0.829);
+        border-radius: 0px 0px 20px 20px ;
+        width: 80%;
+        height: 40px;
+        padding: 10px;
+        margin: 0 auto;
+    
+    }
+    .navMenu{
+        text-decoration: none;
+        color: wheat;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navMenu:hover{
+        font-size: 20px;
+        color: beige;
+        text-shadow: 0 0 20px #eeede7;
+    }
+
+    #resbut{
+        background-color: rgb(252, 169, 14);
+        color: rgb(15, 15, 14);
+        border: 1px solid white;
+        width: 150px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    #resbut:hover{
+        background-color: rgb(238, 156, 3);
+        box-shadow: 0 0 20px #ffcc00;
+        
+    }
+    #fullstack{
+        color:orange;
+    }
+
+    #user{
+        color: rgb(10, 10, 10);
+        margin-top: 7%;
+        margin-left: 15%;
+        font-size: 20px;
+        font-weight: 50px;
+
+    }
+    #userImg{
+        width: 200px;
+        height: 300px;
+    }
+    header{
+        display: flex;
+    }
+    #userImg{
+        border: 2px solid rgb(248, 242, 242);
+        border-radius: 100px 100px 100px 100px;
+        margin-top: 60%;
+        margin-left: 30%;
+        box-shadow: rgb(20, 20, 20) 5px 0px 20px 10px;
+
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .icon:hover{
+         box-shadow: 0 0 30px #080808;
+    }
+    .ap{
+        color:orange;
+    } 
+     
+    </style>
+</head>
+<body>
+   <nav>
+    <div id="navbar">
+        <a class="navMenu ap "  href="http://127.0.0.1:5500/index.html"> Home</a>
+        <a class="navMenu" href="http://127.0.0.1:5500/about.html"> About</a>
+        <a class="navMenu" href="http://127.0.0.1:5500/skills.html"> Skills</a>
+        <a class="navMenu" href="http://127.0.0.1:5500/project.html"> Projects</a>
+        <a class="navMenu" href="http://127.0.0.1:5500/experience.html"> Experience</a>
+        <a class="navMenu" href="http://127.0.0.1:5500/contact.html">Contact</a>
+        
+   
+    </div>
+   </nav>
+   <header>
+        <div id="user">
+            <h1>AADESH SONAWANE</h1><br>
+            <H3>And i'm a <b id ="fullstack">Fullstack Developer</b></H3>
+            <p>I’m Aadesh Sonawane, a self-taught web developer <br> with a background in hotel management. <br> I’m passionate about turning creative ideas <br> into functional web applications using modern technologies <br>like HTML, CSS, and JavaScript.</p>
+            <br>
+            <a  href="https://github.com/aadeshsonawane"><img class="icon" src="/img/github.png" alt="github"></a> &nbsp; &nbsp;
+            <a  href="https://www.linkedin.com/in/aadesh-sonawane-9baa951b6/"><img class="icon" src="/img/linkedin.png" alt="linkedin"></a>&nbsp; &nbsp;
+            <a  href="mailto: aadeshsonawane307@gmail.com"><img class="icon" src="/img/email.png" alt="gmail"></a> &nbsp; &nbsp;
+            <a  href="https://wa.me/8805606015" target="_blank"><img class="icon" src="/img/whatsapp.png" alt="whatsapp"></a> &nbsp; &nbsp;
+            <a  href="tel:8805606015"><img class="icon" src="/img/viber.png" alt="phone"></a>
+
+            
+            
+            <br>
+            <br>
+            <a id="but" href="https://aadesh-sonawane.tiiny.site/"><button id="resbut">Download CV</button></a>
+        </div>
+        <div>
+            <img id="userImg" src="/img/Vmake1745482857808.png" alt="">
+        </div>
+   </header>    
+</body>
+</html>

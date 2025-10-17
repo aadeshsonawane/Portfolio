@@ -6,7 +6,7 @@
     body {
       margin: 0;
       height: 100vh;
-      background-image: url('/img/pexels-eberhardgross-1367192.jpg');
+      background-image: url('/img/15.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed; 
@@ -21,6 +21,7 @@
         height: 40px;
         padding: 10px;
         margin: 0 auto;
+          box-shadow:  0 1px 20px orange;
     
     }
     .navMenu{
@@ -51,34 +52,15 @@
     }
 
     #user{
-        color: rgb(10, 10, 10);
+        color: rgb(253, 253, 252);
         margin-top: 7%;
         margin-left: 15%;
         font-size: 23px;
 
     }
-    #userImg{
-        width: 200px;
-        height: 300px;
-    }
     header{
         display: flex;
     }
-    #userImg {
-        border: 2px solid (248, 242, 242);
-        border-radius: 100px 100px 100px 100px;
-        margin-top: 60%;
-        margin-left: 30%;
-     
-    }
-    #userImg img{
-        margin: 0 auto;
-        padding: 3px;
-    }
-    #userImg img:hover{
-         background-image:-moz-repeating-linear-gradient(red, blue, yellow, green, orange, purple);
-    }
-
     .icon{
         width: 30px;
         height: 30px;
@@ -94,71 +76,3 @@
         font-weight: 70px;
         font-size: 25px;
     }
-
-    /* about.html file css */
-  .ap{
-        color: orange;
-    } 
-    #box{
-        width: 80%;
-        background-color: rgba(21, 21, 29, 0.61);
-        margin: 0 auto;
-        margin-top: 5%;
-        border-radius: 10px 10px 10px 10px;
-        color: beige;
-        border: 1px solid rebeccapurple;
-        height: 500px;
-        box-shadow:  0 1px 20px orange;
-    }
-    #org{
-        color: orange;
-    }
-    #head{
-        text-align: center;
-        padding-top: 1rem;
-        border: 1px solid yellow;
-    }
-   .contDiv{
-    border: 1px solid brown;
-    width: 95%;
-    margin: 2% auto;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    
-   }
-
-   .info , .stdImg{
-    border: 1px solid black;
-    width: 49%;
-   }
-   .contDiv .info .details{
-    border: 1px solid green;
-    margin: 1rem auto;
-    height: 90%;
-    padding: 1rem;
-    line-height: 2rem;
-    font-size: 19px;
-   }
-   .details b{
-    color: yellow;
-   }
-   .details a{
-    text-decoration: none;
-    color: white;
-   }
-   .stdImg .imgMy{
-    /* border: 1px solid yellow; */
-    width: 40%;
-    margin: 3rem auto;
-    height: 65%;
-    box-shadow:  0 1px 20px white;
-    border-radius: 10px;
-    border: none;
-   }
-   .stdImg .imgMy img{
-    width: 100%;
-    border: none;
-    border-radius: 10px;
-    padding: 0px;
-   }

@@ -1,0 +1,136 @@
+    *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('/img/6.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;     
+      background-attachment: fixed; 
+      background-position: center;
+    }
+    #navbar{
+        display: flex;
+        justify-content:space-evenly;
+        background-color: rgba(21, 21, 29, 0.829);
+        border-radius: 0px 0px 20px 20px ;
+        width: 80%;
+        height: 40px;
+        padding: 10px;
+        margin: 0 auto;
+          box-shadow:  0 1px 20px orange;
+    }
+    .navMenu{
+        text-decoration: none;
+        color: wheat;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navMenu:hover{
+        font-size: 20px;
+        color: beige;
+        text-shadow: 0 0 20px #eeede7;
+    }
+    .ap{
+        color: orange;
+    } 
+     #box{
+            width: 80%;
+        background-color: rgba(21, 21, 29, 0.61);
+        margin: 0 auto;
+        margin-top: 5%;
+        border-radius: 10px 10px 10px 10px;
+        color: beige;
+        border: 1px solid rebeccapurple;
+        height: 500px;
+        box-shadow:  0 1px 20px orange;
+    }
+    #org{
+        color: orange;
+    }
+    #head{
+        text-align: center;
+        padding-top: 1rem;
+        border: 1px solid yellow;
+    }
+
+    /* skill */
+   .mainDiv{
+    border: 1px solid red;
+    height: 80%;
+    margin: 1rem 2rem;
+    display: flex;
+    gap: 4%;
+   }
+   .one, .two{
+    border: 1px solid rgb(50, 47, 255);
+    width: 48%;
+    height: 100%;
+    padding: 2rem 1rem;
+   }
+   .skill {
+  margin-bottom: 10px;
+  border: 1px solid red;
+}
+
+.bar {
+  width: 400px;
+  height: 20px;
+  background: #c4c0c0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 1px solid yellow;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.html {
+  width: 80%;
+  background: #ffa500;
+}
+.css{
+    width: 70%;
+    background: #ffa500;
+
+}
+.javascript{
+    width: 70%;
+    background: #ffa500;
+    
+}
+.bootstrap{
+    width: 80%;
+    background: #ffa500;
+}
+.worldpress{
+    width: 65%;
+    background: #ffa500;
+}
+.c{
+    width: 80%;
+    background: #ffa500;
+}
+.react{
+     width: 65%;
+    background: #ffa500;
+}
+.nodejs{
+     width: 75%;
+    background: #ffa500;
+}
+.angular{
+     width: 55%;
+    background: #ffa500;
+}
+.github{
+     width: 70%;
+    background: #ffa500;
+}
+
+

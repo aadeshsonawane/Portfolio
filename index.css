@@ -6,7 +6,7 @@
     body {
       margin: 0;
       height: 100vh;
-      background-image: url('/img/expre.jpg');
+      background-image: url('./img/expre.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed; 

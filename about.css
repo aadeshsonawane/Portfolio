@@ -18,8 +18,8 @@
         background-color: rgba(21, 21, 29, 0.829);
         border-radius: 0px 0px 20px 20px ;
         width: 80%;
-        height: 40px;
-        padding: 10px;
+        height: 3rem;
+        padding-top: 1%;
         margin: 0 auto;
           box-shadow:  0 1px 20px orange;
     }
@@ -29,7 +29,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .navMenu:hover{
-        font-size: 20px;
+        font-size: 1.3rem;
         color: beige;
         text-shadow: 0 0 20px #eeede7;
     }
@@ -44,8 +44,9 @@
         border-radius: 10px 10px 10px 10px;
         color: beige;
         border: 1px solid rebeccapurple;
-        height: 500px;
+        height: 75vh;
         box-shadow:  0 1px 20px orange;
+
     }
     #org{
         color: orange;
@@ -75,7 +76,7 @@
     height: 90%;
     padding: 1rem;
     line-height: 2rem;
-    font-size: 19px;
+    font-size: 1.2rem;
    }
    .details b{
     color: yellow;
@@ -88,14 +89,28 @@
     /* border: 1px solid yellow; */
     width: 40%;
     margin: 3rem auto;
-    height: 65%;
+    height: auto;
     box-shadow:  0 1px 20px white;
     border-radius: 10px;
-    border: none;
    }
    .stdImg .imgMy img{
     width: 100%;
-    border: none;
-    border-radius: 10px;
-    padding: 0px;
+    border-radius: 10px;    
    }
+
+@media(max-width: 600px){
+       
+    .contDiv .info .details{
+    margin: 1rem auto;
+    height: 90%;
+    padding: 1rem;
+    line-height: 1rem;
+    font-size: 0.5rem;
+   }
+   #navbar{
+    width: 100%;
+   }
+   #box{
+    height: auto;
+   }
+}

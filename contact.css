@@ -18,8 +18,8 @@
         background-color: rgba(21, 21, 29, 0.829);
         border-radius: 0px 0px 20px 20px ;
         width: 80%;
-        height: 40px;
-        padding: 10px;
+        height: 3rem;
+        padding-top: 1%;
         margin: 0 auto;
           box-shadow:  0 1px 20px orange;
     
@@ -46,7 +46,7 @@
         border-radius: 10px 10px 10px 10px;
         color: beige;
         border: 1px solid rebeccapurple;
-        height: 500px;
+        height: 75vh;
         box-shadow:  0 1px 20px orange;
        
     }
@@ -124,4 +124,47 @@
      .formDiv form .bt input:hover{
         background-color: rgb(238, 156, 3);
         box-shadow: 0 0 20px #ffcc00;
+     }
+     @media (max-width:600px){
+         #navbar{
+            width: 100%;
+             padding-top: 1rem;
+        }
+        #box{
+            height: auto;
+        }
+        #box .getTouch h2{
+            text-align: center;
+        }
+        .getTouch div{
+            width: 100%;
+            flex-direction: column;
+        }
+        .contDiv{
+            flex-direction: column;
+
+        }
+         .getTouch, .formDiv{
+            margin: 0rem auto;
+            width: 100%;
+         }
+        form{
+            text-align: center;
+        }
+        .formDiv form .bt{
+            width: 100%;
+            text-align: center;
+        }
+        .formDiv form .bt input{
+            width: 7rem;
+        }
+        .getTouch .mail a img{
+            width: 2rem;
+        }
+        .getTouch div h4{
+            font-size: 1.6rem;
+        }
+        .getTouch div p{
+            font-size: 1.5rem;
+        }  
      }

@@ -18,8 +18,7 @@
         background-color: rgba(21, 21, 29, 0.829);
         border-radius: 0px 0px 20px 20px ;
         width: 80%;
-        height: 40px;
-        padding: 10px;
+        padding: 1%;
         margin: 0 auto;
           box-shadow:  0 1px 20px orange;
     }
@@ -44,7 +43,7 @@
         border-radius: 10px 10px 10px 10px;
         color: beige;
         border: 1px solid rebeccapurple;
-        height: 500px;
+        height: auto;
         box-shadow:  0 1px 20px orange;
     }
     #org{
@@ -63,6 +62,7 @@
     margin: 1rem 2rem;
     display: flex;
     gap: 4%;
+    width: 95%;
    }
    .one, .two{
     border: 1px solid rgb(50, 47, 255);
@@ -76,8 +76,8 @@
 }
 
 .bar {
-  width: 400px;
-  height: 20px;
+  width: 90%;
+  height: 3vh;
   background: #c4c0c0;
   border-radius: 10px;
   overflow: hidden;
@@ -133,4 +133,20 @@
     background: #ffa500;
 }
 
+ @media (max-width:600px) {
+     #navbar{
+            width: 100%;
+        }
+    .skill h3{
+        font-size:90%;
+    }
+    .skill {
+        width: 100% ;
+    }
+    .mainDiv{
+        width: 100%;
+        margin: 1rem 0rem;
+
+    }
+ }
 
